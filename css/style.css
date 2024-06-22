@@ -56,11 +56,14 @@ header .accent {
     text-decoration: underline;
 }
 
+.contacts {
+    font-style: normal;
+}
+
 .contacts .soc {
     font-size: 16px;
     letter-spacing: 0.02em;
     color: #434455;
-    font-style: normal;
 }
 
 .contacts .soc:hover,
