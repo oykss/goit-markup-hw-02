@@ -30,7 +30,7 @@ ol {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
@@ -40,60 +40,62 @@ header .accent {
     color: #2e2f42;
 }
 
-.menu a {
+.menu-iteam {
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
 
-.menu a:hover {
-    color: #404BBF;
+.menu-iteam:hover,
+.menu-iteam:focus {
+    color: #404bbf
 }
 
-.menu a:active {
+.menu-iteam:active {
     text-decoration: underline;
 }
 
 .contacts a {
-
     font-size: 16px;
     letter-spacing: 0.02em;
     color: #434455;
+    font-style: normal;
 }
 
 .contacts a:hover,
 .contacts a:focus {
-    color: #404BBF;
+    color: #404bbf
 }
 
 /* Main 
 Section-1*/
 .hero {
     background-color: #2e2f42;
-    ;
 }
 
-h1 {
+.hero .title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     color: #fff;
     text-align: center;
 }
 
-.hero button {
+.hero .btn {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.04em;
     color: #fff;
+    line-height: 1.5;
     background-color: #4d5ae5;
     cursor: pointer;
 }
 
-.hero button:hover {
-    background-color: #404bbf;
+.hero .btn:hover {
+    background-color: #404BBF;
 }
 
 /* Section-2 */
@@ -101,14 +103,14 @@ h1 {
     visibility: hidden;
 }
 
-.advantages h3 {
+.advantages .subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
 
-.advantages p {
+.advantages .desc {
     font-size: 16px;
     letter-spacing: 0.02em;
 }
@@ -118,19 +120,20 @@ h1 {
     background-color: #F4F4FD;
 }
 
-.team h2 {
+.team .title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
 }
 
 .team li {
     background-color: #FFFFFF;
 }
 
-.team h3 {
+.team .subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -138,43 +141,44 @@ h1 {
     text-align: center;
 }
 
-.team p {
+.team .desc {
     font-size: 16px;
     letter-spacing: 0.02em;
     text-align: center;
 }
 
 /* Section-4 */
-.portfolio h2 {
+.portfolio .title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize
 }
 
-.portfolio h3 {
+.portfolio .subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
 
-.portfolio p {
+.portfolio .desc {
     font-size: 16px;
     letter-spacing: 0.02em;
 }
 
 /* Footer */
-footer {
+.footer {
     background-color: #2e2f42;
 }
 
-footer .accent {
+.footer .accent {
     color: #f4f4fd;
 }
 
-footer p {
+.footer .desc {
     font-size: 16px;
     letter-spacing: 0.02em;
     color: #f4f4fd;
