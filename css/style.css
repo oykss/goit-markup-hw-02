@@ -133,7 +133,7 @@ Section-1*/
     text-transform: capitalize;
 }
 
-.team li {
+.team .card {
     background-color: #FFFFFF;
 }
 
