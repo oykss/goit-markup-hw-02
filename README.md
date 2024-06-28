@@ -77,6 +77,6 @@
   за замовчуванням. Наприклад, посиланням не потрібно вказувати
   `cursor: pointer`, а абзацам `font-style: normal` або `font-weight: 400`.
 
-# [WebStudio](https://oykss.github.io/goit-markup-hw-02/)
+#[WebStudio](https://oykss.github.io/goit-markup-hw-02/)
 
 ![alt](hhttps://i.imgur.com/T7f87bK.png)
